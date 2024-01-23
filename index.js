@@ -58,6 +58,15 @@ class Heroi {
     }
   }
   
-  // Exemplo de uso:
-  let heroi = new Heroi('Thor', 1000, 'guerreiro');
-  heroi.atacar();  // Saída: O guerreiro atacou usando espada
+  // Usando um Guerreiro:
+  //let heroi = new Heroi('Thor', 30, 'guerreiro');
+  //heroi.atacar();  // Saída: O guerreiro atacou usando espada
+  // Usando um Mago:
+  //let heroi = new Heroi('Odin', 30, 'mago');
+  //heroi.atacar();  // Saída: O mago atacou usando magia
+  //Usando um Ninja
+  //let heroi = new Heroi('Sayur', 25, 'ninja');
+  //heroi.atacar();  // Saída: O ninja atacou usando usou shuriken
+  //Usando um Monge
+  let heroi = new Heroi('Sagrado', 25, 'monge');
+  heroi.atacar();  // Saída: O monge atacou usando usou artes marciais
